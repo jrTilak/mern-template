@@ -1,0 +1,16 @@
+paths:
+  /hello:
+    get:
+      summary: Get a greeting message
+      description: Returns a greeting message when called
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Hello, World!
