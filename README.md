@@ -2,9 +2,11 @@
 
 This is a starter template for building web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) with TypeScript.
 
-## Features
+For CONTRIBUTING, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-#### Frontend
+## Technologies Used
+
+#### Frontend [read more](#frontend)
 
 - [React.js:](https://reactjs.org/) for building the user interface.
 - [Vite.js:](https://vitejs.dev/) for building the frontend.
@@ -12,9 +14,8 @@ This is a starter template for building web applications using the MERN stack (M
 - [Tailwind CSS:](https://tailwindcss.com/) for styling the user interface.
 - [Shadcn UI:](https://ui.shadcn.com/) for adding elements.
 - [React Router:](https://reactrouter.com/) for routing.
-- [Axios:](https://axios-http.com/) for making HTTP requests.
 
-#### Backend
+#### Backend [read more](#backend)
 
 - [Express.js:](https://expressjs.com/) for building the server-side application.
 - [MongoDB:](https://www.mongodb.com/) for the database.
@@ -39,6 +40,6 @@ To get started with this template, follow these steps:
 
 4. Open your browser
 
-## Folder Structure
+## Frontend
 
-The folder structure of this template is as follows:
+## Backend
