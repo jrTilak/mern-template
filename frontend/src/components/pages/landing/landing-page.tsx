@@ -8,6 +8,12 @@ import FetchedData from "./fetched-data";
 const LandingPage = () => {
   const [count, setCount] = useState(0);
   const [data, setData] = useState("//fetch data to show..." as any);
+  const handleFetchData = async () => {
+    setData({
+      message: "Hello from the server!",
+      date: new Date().toLocaleDateString(),
+    });
+  };
   return (
     <div className="flex flex-col gap-32 items-center justify-between m-auto">
       <div className="flex felx gap-32">
@@ -43,7 +49,7 @@ const LandingPage = () => {
         >
           Count {count}
         </Button>
-        <Button>Fetch Data</Button>
+        <Button onClick={handleFetchData}>Fetch Data</Button>
       </div>
     </div>
   );
