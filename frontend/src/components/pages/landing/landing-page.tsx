@@ -4,15 +4,14 @@ import { cn } from "@/lib/utils";
 import { useState } from "react";
 import TechsList from "./techs-list";
 import FetchedData from "./fetched-data";
+import { fetchHello } from "@/helpers/hello.service";
 
 const LandingPage = () => {
   const [count, setCount] = useState(0);
   const [data, setData] = useState("//fetch data to show..." as any);
   const handleFetchData = async () => {
-    setData({
-      message: "Hello from the server!",
-      date: new Date().toLocaleDateString(),
-    });
+    const res = await fetchHello();
+    setData(res);
   };
   return (
     <div className="flex flex-col gap-32 items-center justify-between m-auto">

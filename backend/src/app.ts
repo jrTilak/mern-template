@@ -22,7 +22,6 @@ app.use(bodyParser.json({ limit: "10mb" }));
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json());
-app.use(cookieParser(process.env.COOKIE_SECRET));
 
 // remove it in production
 app.use(morgan("dev"));
