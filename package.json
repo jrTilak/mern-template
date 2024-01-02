@@ -1,8 +1,14 @@
 {
   "name": "mern-template",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
+  "description": "This is a starter template for a MERN stack application. It includes a React front-end, Node.js/Express back-end, and MongoDB database.",
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "jrTilak",
   "license": "ISC"
 }
